@@ -21,5 +21,5 @@ jobs:
        find ./ -print
     - uses: actions/upload-artifact@v2
       with:
-        name: app-debug.apk
-        path: app/build/outputs/apk/debug/app-debug.apk
+        name: app-debug
+        path: ./app/build/outputs/apk/dev/release/*.apk
